@@ -1,0 +1,62 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 646px;
+}
+
+.iphone{
+  height: 550px;
+  width: 310px;
+}
+
+#testimonial{
+  background-color: #F5F5F5;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.dog{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+h2{
+  margin-bottom: 50px;
+}
+
+.img-testimonial{
+  font-size: 20px;
+  font-weight: 50;
+  margin-bottom: 50px;
+}
+
+.logos{
+  height: 2rem;
+  margin-bottom: 5px;
+  margin-right: 150px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
